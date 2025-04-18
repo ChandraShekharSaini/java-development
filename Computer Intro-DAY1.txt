@@ -1,0 +1,91 @@
+INVENTION OF COMPUTER
+---------------------
+
+Charles Babbage an English Mathematician invented world's first computer in 1940's.
+
+He is also called as Father of Computer.
+
+
+Definition of Computer.
+
+Computer is an electronic device for storing and processing data, typically in binary form,  according to instructions given to it in a variable program. It is also a collection of hardware and software components.
+
+For example:
+
+Hardware Components: CPU, RAM, ROM, Keyboard, Printer, Monitor, etc.
+
+Software Components: Operating System, Applications etc.
+
+Microprocessor or CPU
+
+A microprocessor is an electronic component that is used by a computer to do its work. It is a  central processing unit on a single integrated circuit chip containing millions of very small components including transistors, resistors, and diodes that work together.
+
+They are created using a technology called as Semiconductor technology
+
+Types of Transistors
+
+Any device which is made up of transistors is referred to as working in Semiconductor Technology. These devices are called as semiconductor devices.
+A transistor is a device that regulates current or voltage flow and acts as a switch or gate for electronic signals. 
+The transistors have three terminals emitter, base and collector.
+Transistors can only store voltages i.e., High level voltage (5V) and Low-level voltage (0V)
+
+
+What is HLL, ALL & MLL? What is Assembler and Compiler?
+=======================================================
+
+As we already know that microprocessor can store either 5v or 0v.
+In software engineer's view, they may look the two levels as Low level as '0' and High level as '1'.
+
+Machine Level Language
+
+To program for first computer was not simple task for the programmer's because microprocessor only understand 0's and 1's. Programmers must remember the combination of 0's and 1's code to perform simple operations like addition, subtraction.
+This combination codes are called as "Machine Level Language".
+
+It is also referred as "Low Level Language".
+
+Assembly Level Language
+
+The problem with Machine level code approach was decided to be changed in the year 1950’s. 
+
+They thought that instead of writing a long sequence of 0’s and 1’s a single instruction can be given.
+This approach of writing code is what called as "Assembly Level Language".
+Instead of using numbers like in Machine languages here we use words or names in English forms
+
+High Level Programming Language
+
+In 1960’s they came up with next type of language called "High Level Programming Language".
+High Level Languages are written in a form that is close to our human language, enabling the 
+programmer to just focus on the problem being solved
+
+
+Storage Devices
+A storage device is a type of hardware that is used for storing, porting or extracting data files 
+and objects. 
+Storage devices can hold and store information both temporarily and permanently. 
+They may be internal or external to a computer, server or computing device.
+For example: RAM, ROM and Hard Disk.
+
+
+BUS CONNECTION
+
+
+The collection of instructions is called as code. These codes are called as PROGRAMS.
+Hence, these programs must be stored somewhere because microprocessor can't store. Here 
+arises the requirement of Storage Device that is called as "HARD DISK".
+The connection between hard disk and microprocessor is achieved by bunch of wires called 
+as "BUS CONNECTION".
+
+WORKING:
+
+Hard disk sends instructions one by one via bus connection to microprocessor. Microprocessor 
+has to wait for next instruction, this process was very slow because hard disk and 
+microprocessor uses different technology.
+● Microprocessor works on the principle of semiconductor technology i.e., on basics of 
+current and voltage.
+● Hard Disk works on the principle of magnetism i.e., on basics of magnetic 
+tapes.
+
+Random Access Memory
+To overcome the speed issue RAM was invented which uses semiconductor technology.
+RAM was volatile memory device it requires constant electricity supply. If the electricity is 
+disconnected all the data storage will be erased.
