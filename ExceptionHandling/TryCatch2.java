@@ -1,18 +1,17 @@
-public class TryCatch{
+public class TryCatch2{
     public static void main(String[] args){
 
     System.out.println("------------------Program Start------------------");
 
-         int a = 9;
-         int b  = 0;
+      int[] arr  = {10,20,30};
 
         try{
-            System.out.println(a/b);
+            System.out.println(arr[5]);
         }
-        catch(ArithmeticException x){
+        catch(ArrayIndexOutOfBoundsException x){
                System.out.println(x);
 
-               System.out.println("ArithmeticException Eror aya he aya he !!!");
+               System.out.println("ArrayIndexOutOfBoundsException Eror aya he aya he !!!");
         }
         finally{
             System.out.println("Deko me kaam karu ga kese be haal me");
