@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HybridInheritance/HybridInheritance.iml" filepath="$PROJECT_DIR$/HybridInheritance/HybridInheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Inhertamce-1.iml" filepath="$PROJECT_DIR$/.idea/Inhertamce-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiLevelInheitance/MultiLevelInheitance.iml" filepath="$PROJECT_DIR$/MultiLevelInheitance/MultiLevelInheitance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleLevelInheitance/SingleLevelInheitance.iml" filepath="$PROJECT_DIR$/SingleLevelInheitance/SingleLevelInheitance.iml" />
     </modules>
   </component>
 </project>
