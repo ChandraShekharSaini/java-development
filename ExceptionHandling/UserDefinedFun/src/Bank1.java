@@ -6,7 +6,7 @@ public class Bank1 {
 
       public void checkUser(int un , int pass) throws Exception {
           if(un == this.un && pass == this.pass) {
-              System.out.println("Money Widdrawn Successfully......");
+              System.out.println("Money Widrawn Successfully......");
           }
           else{
               throw new InvalidDetailsException ("Wrong Credentials !! Try Again");
