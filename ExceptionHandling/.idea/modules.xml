@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parent-Class/Parent-Class.iml" filepath="$PROJECT_DIR$/Parent-Class/Parent-Class.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThrowsKeyword/ThrowsKeyword.iml" filepath="$PROJECT_DIR$/ThrowsKeyword/ThrowsKeyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserDefinedFun/UserDefinedFun.iml" filepath="$PROJECT_DIR$/UserDefinedFun/UserDefinedFun.iml" />
       <module fileurl="file://$PROJECT_DIR$/throwkeyword/throwkeyword.iml" filepath="$PROJECT_DIR$/throwkeyword/throwkeyword.iml" />
