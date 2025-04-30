@@ -1,5 +1,7 @@
 import java.io.IOException;
 import java.sql.SQLException;
+
+//Child Class
 public class DogChild extends  AnimalParent{
     @Override
     void m1()  throws  ArrayIndexOutOfBoundsException{
