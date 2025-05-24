@@ -5,7 +5,7 @@ public class MainClass {
 	 
 	 GrameenBank gb = new GrameenBank();
 	 
-	 System.out.println(gb.getInterst()); //
+	 System.out.println(gb.getInterst()); //1
 	 
 	  gb.getLoan(); //Not Eligible
  }
