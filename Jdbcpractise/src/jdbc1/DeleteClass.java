@@ -25,7 +25,6 @@ public class DeleteClass {
 		     int status =  stmp.executeUpdate(query);
 		     
 		     
-		    
 		     if(status>0) {
 		    	 System.out.println("Deleted Successfully");
 		    	 

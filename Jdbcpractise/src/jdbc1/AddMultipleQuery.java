@@ -24,8 +24,8 @@ public class AddMultipleQuery {
 			String query3 = "INSERT INTO EMPLOYE(name  , hire_date) VALUES('Nama Singh','2021-06-08')";
 			
 			
-			//It is costlier task to execute stmp.execute() method for multiple query statement
-			//Better to use addBatch() method
+			//It is costlier task to execute stmp.execute() method again and again 
+			//Use for multiple query statement Better to use addBatch() method
 //			stmp.execute(query1);
 //			stmp.execute(query2);
 //			stmp.execute(query3);
@@ -34,7 +34,7 @@ public class AddMultipleQuery {
 			stmp.addBatch(query2);
 			stmp.addBatch(query3);
 			
-		int[] arr = 	stmp.executeBatch();
+		int[] arr = stmp.executeBatch();
 		
 		for(int x:arr) {
 			System.out.println(x);
@@ -43,7 +43,6 @@ public class AddMultipleQuery {
 		    con.close();
 		    stmp.close();
 		    
-
 			
 		}
 		catch(Exception x) {

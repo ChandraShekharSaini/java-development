@@ -1,6 +1,5 @@
-import java.util.ArrayList;
-import java.util.TreeSet;
 
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
@@ -20,23 +19,26 @@ public class Main {
         // System.out.println(f6);
         // System.out.println(f7);
 
-        // ArrayList<Fligt> list = new ArrayList<>();
-        // list.add(f1);
-        // list.add(f2);
-        // list.add(f3);
-        // list.add(f4);
-        // list.add(f5);
-
-        // System.out.println(list);
-
-        TreeSet<Fligt> list = new TreeSet<>();
+        System.out.println("========================================================================");
+        ArrayList<Fligt> list = new ArrayList<>();
         list.add(f1);
         list.add(f2);
         list.add(f3);
         list.add(f4);
         list.add(f5);
-        list.add(f6);
-        list.add(f7);
+
+        //  System.out.println(list);
+
+
+        System.out.println("==========================================================================");
+        // TreeSet<Fligt> list = new TreeSet<>();
+        // list.add(f1);
+        // list.add(f2);
+        // list.add(f3);
+        // list.add(f4);
+        // list.add(f5);
+        // list.add(f6);
+        // list.add(f7);
 
         // System.out.println(list);
 
@@ -47,7 +49,18 @@ public class Main {
         // list.add(4);
         // list.add(5);
 
-         System.out.println(list);
+      //  System.out.println(list);
 
+
+      System.out.println("==============================================");
+
+     Collections.sort(list);
+
+     for(Fligt x:list){
+        System.out.println(x);
+     }
+
+
+ 
     }
 }

@@ -21,7 +21,7 @@ public class MainClass2 {
 	
 	public static void main(String[] args) {
 		
-//	  access(); //will give NullPonterEcception
+	  //  access(); //will give NullPonterEcception
 		
 		method(new Cat());
 		System.out.println();

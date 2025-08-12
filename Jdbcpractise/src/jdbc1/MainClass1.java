@@ -3,7 +3,6 @@ package jdbc1;
 import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
-
 public class MainClass1 {
 
 	public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class MainClass1 {
 			//2. Register the Driver and create Connection
 			Connection con =   DriverManager.getConnection(url , username , password);
 			
-			//3. Create Statement
+			//3. Create Statement2
 			  Statement stmp =  con.createStatement();
 			
 			///4. Execute Query

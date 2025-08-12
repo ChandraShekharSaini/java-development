@@ -18,7 +18,7 @@ public class MultiThreading {
     public static void main(String[] args) {
         MultiThreading obj = new MultiThreading();
         obj.add();
-        Numbers num = new Numbers();
+        Numbers1 num = new Numbers1();
         Alphabets alphabet = new Alphabets();
         num.number();
         alphabet.alpha();

@@ -38,7 +38,9 @@ public class FirstLastRow {
 
 		    }
 		    
+		    //To Bring Java cursor to last
 		    res.afterLast();
+		    //To Bring Java cursor to first
 		    res.beforeFirst();
 		    
 		    
@@ -51,11 +53,10 @@ public class FirstLastRow {
 		   
 		   
 		   res.absolute(4);
-		   System.out.println(res.getRow());
+		   System.out.println(res.getRow()); //4
 		   
 		   
-		    
-
+		   
 			
 		}
 		catch(Exception x) {

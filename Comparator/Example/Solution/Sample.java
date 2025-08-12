@@ -23,7 +23,7 @@ public class Sample {
         // Sort acc to id, using Comparable
         // Collections.sort(list);
 
-        // Sort acc to id, using Comparater
+        // Sort acc to name, using Comparater
         Collections.sort(list, new compareName());
 
         for (Employe x : list) {

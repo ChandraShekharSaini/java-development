@@ -24,14 +24,14 @@ public class SpecificRow {
 			
 		    ResultSet res = stmp.executeQuery(query);
 		    
+		    //If you want to absolute()  then use Result.Set.TYPE_SCROLL_INSENSTIVE in ResultSet.TYPE_SCROLL_INSENSITIVE
 		   if(res.absolute(2)) {
 			    System.out.println(res.getInt("id") + " | "+ res.getString("name") + " | "+res.getString("hire_date"));
 		   }else {
 			   System.out.println("Row Not Present");
 		   }
 	
-		  
-			
+		
 		}
 		catch(Exception x) {
 			x.printStackTrace();

@@ -1,5 +1,5 @@
 
-public class Numbers implements Runnable {
+public class Numbers1 implements Runnable {
 
     @Override
     public void run() {

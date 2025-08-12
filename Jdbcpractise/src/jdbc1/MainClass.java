@@ -29,7 +29,7 @@ public static void main(String[] args) {
 	    System.out.println("Statement Created Successfully");
 	    
 	  //  String query = "UPDATE employe  set name = 'Tab 9'  WHERE id = 2;";
-	    String query2 = "INSERT INTO EMPLOYE(name , hire_date) VALUES('Abishek Yadav','2021-10-01')";
+	    String query2 = "INSERT INTO EMPLOYE(name , hire_date) VALUES('Abishek','2021-10-01')";
 	    //4. Execute Query
 	    boolean rowEffect =   stmp.execute(query2);
 	   

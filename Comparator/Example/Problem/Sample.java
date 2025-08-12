@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class Sample {
@@ -21,7 +22,7 @@ public class Sample {
         // bec we have not use Comparable or Comparable interface in our Employe
         // class giving compile time error
 
-        Collections.sort(list);
+        Comparable.sort(list);
 
         for (Employe x : list) {
             System.out.println(x);

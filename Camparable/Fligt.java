@@ -38,7 +38,7 @@ public class Fligt implements Comparable<Fligt> {
         // String il2 = ol.name;
         // return il1.compareTo(il2);
 
-        return this.name.compareTo(ol.name);
+        return this.price.compareTo(ol.price);
     }
 
 }

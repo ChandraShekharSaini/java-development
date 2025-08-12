@@ -32,7 +32,7 @@ public class Demo implements Runnable {
         Thread kaam2 = new Thread(prinntarray);
         kaam2.start();
 
-        Numbers num = new Numbers();
+        Numbers1 num = new Numbers1();
         Thread kaam3 = new Thread(num);
         kaam3.start();
 

@@ -6,9 +6,9 @@ public class Example {
 
         System.out.println(a.compareTo(b));
 
-        Integer a1 = 800;
-
         
+
+        Integer a1 = 800;
         Integer b1 = 200;
 
         System.out.println(a1.compareTo(b1));

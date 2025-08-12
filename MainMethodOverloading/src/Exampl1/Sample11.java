@@ -11,7 +11,7 @@ public class  Sample11 {
 	 
 	 public String main() {
 			
-			System.out.println("Overloading Main Method");
+			System.out.println("Overloading Main nmm Method");
 			
 			return "chandra";
 	 }
@@ -22,6 +22,9 @@ public class  Sample11 {
     
 	public static void main(String[] args) {
 				
+		main(12);
+		
+		new Sample11().main();
 	
 	}
 }

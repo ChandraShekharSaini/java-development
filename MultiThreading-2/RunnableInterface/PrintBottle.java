@@ -1,10 +1,9 @@
 
-
 public class PrintBottle implements Runnable {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName());
+        System.out.print(Thread.currentThread().getName());
         printBottleNum();
 
     }
