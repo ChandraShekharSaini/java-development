@@ -1,9 +1,6 @@
 import java.util.Iterator;
-import java.util.ListIterator;
-
-import javafx.scene.effect.Light.Spot;
-
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class Linked {
 

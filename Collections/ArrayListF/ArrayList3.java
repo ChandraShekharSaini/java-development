@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+
 public class ArrayList3 {
     public static void main(String[] args) {
 
@@ -109,7 +110,12 @@ public class ArrayList3 {
 
         Iterator<Integer> it = sc6.iterator();
 
+
         while (it.hasNext()) {
+            // check next element retun boolen
+            System.out.println(it.hasNext());
+
+            //retun next element
             System.out.println(it.next());
             try {
                 Thread.sleep(2000);
@@ -119,19 +125,37 @@ public class ArrayList3 {
             }
         }
 
+
+
+      
+        
+
         System.out.println("-----------Iteration--using---ListIterator------------");
         System.out.println("--------Can Iterate-in-Forward-and-Backward-Direction----");
 
-        ListIterator lit = sc6.listIterator(sc6.size());
+        // ListIterator lit = sc6.listIterator(sc6.size());
 
-        while (lit.hasPrevious()) {
-            System.out.println(lit.previous());
-            try {
-                Thread.sleep(2000);
-            } catch (Exception e) {
-                e.getMessage();
-                e.printStackTrace();
-            }
+        // while (lit.hasPrevious()) {
+        //     System.out.println(lit.previous());
+        //     try {
+        //         Thread.sleep(2000);
+        //     } catch (Exception e) {
+        //         e.getMessage();
+        //         e.printStackTrace();
+        //     }
+        // }
+
+        ListIterator<Integer> liu =  sc6.listIterator();
+
+        while (liu.hasNext()) { 
+            System.out.println(liu.nextIndex() + " " + liu.next());
+        }
+
+
+     System.out.println("Revese In reverse direction");
+        while (liu.hasPrevious()) { 
+            
+            System.out.println( liu.previousIndex() + " "  + liu.previous());
         }
 
         System.out.println("----------sublist()---------------");

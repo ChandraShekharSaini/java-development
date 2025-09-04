@@ -35,7 +35,7 @@ public class PrioritQueue {
         System.out.println(sc.element());
 
         System.out.println("----------------------");
-        System.out.println(sc.peek());
+        System.out.println("Peek " + sc.peek());
         System.out.println(sc);
 
         System.out.println("----------------------");

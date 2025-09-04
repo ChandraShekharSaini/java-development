@@ -1,7 +1,13 @@
 import java.util.ArrayList;
-import java.util.ListIterator;
 
 public class ArrayList1 {
+
+   @Override
+    public String toString(){
+
+        return "cknsc";
+    }
+
 
     public static void main(String[] args) {
 
@@ -39,31 +45,36 @@ public class ArrayList1 {
         sc.add(102);
         sc.add(103);
 
-        System.out.println("--------------------------------");
-        ListIterator<Integer> i = sc.listIterator(4);
-        System.out.println(sc);
-        System.out.println("Iterating through the list:");
-        while (i.hasPrevious()) {
-            System.out.print(i.previous() + " ");
-        }
-        System.out.println("-----------------------------");
-        ArrayList<Integer> sc1 = new ArrayList<Integer>();
-        sc1.add(101);
-        sc1.add(102);
-        sc1.add(103);
-        sc1.add(104);
-        sc1.add(105);
-        System.out.println(sc1);
+        int data = 12;
+        sc.add(data);
 
-        System.out.println(sc1.get(2));
-        System.out.println(sc1.contains(101));
+        System.out.println(sc);
+
+        // System.out.println("--------------------------------");
+        // ListIterator<Integer> i = sc.listIterator(4);
+        // System.out.println(sc);
+        // System.out.println("Iterating through the list:");
+        // while (i.hasPrevious()) {
+        //     System.out.print(i.previous() + " ");
+        // }
+        System.out.println("-----------------------------");
+        // ArrayList<Integer> sc1 = new ArrayList<Integer>();
+        // sc1.add(101);
+        // sc1.add(102);
+        // sc1.add(103);
+        // sc1.add(104);
+        // sc1.add(105);
+        // System.out.println(sc1);
+
+        // System.out.println(sc1.get(2));
+        // System.out.println(sc1.contains(101));
         // System.out.println(sc1.add(1,23));
 
-        System.out.println(sc1.indexOf(101));
-        System.out.println(sc1);
-        System.out.println(sc1.remove(2));
+        // System.out.println(sc1.indexOf(101));
+        // System.out.println(sc1);
+        // System.out.println(sc1.remove(2));
 
-        System.out.println(sc1);
+        // System.out.println(sc1);
     }
 
 }
